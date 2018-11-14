@@ -12,6 +12,7 @@ namespace PipelineTest.UnitTests
 
             sut.Start();
             Assert.True(sut.IsRunning);
+            Assert.False(sut.IsRunning);
         }
 
         [Fact]
